@@ -159,6 +159,9 @@ gem "active_model_serializers", "0.9.5"
 gem "diaspora-prosody-config",    "0.0.5"
 gem "rails-assets-diaspora_jsxc", "0.1.5.develop.1", source: "https://rails-assets.org"
 
+# Matrix chat dependencies
+gem "rails-assets-diaspora-vector-web", "0.1.4", source: "https://rails-assets.org"
+
 # Tags
 
 gem "acts-as-taggable-on", "3.5.0"
