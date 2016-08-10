@@ -1,4 +1,5 @@
 # the presenter in charge of rendering polls for the API
+# TODO: better comments
 class Api::V1::PollPresenter < BasePresenter
   attr_accessor :poll
 

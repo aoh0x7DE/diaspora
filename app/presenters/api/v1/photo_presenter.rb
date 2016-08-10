@@ -1,4 +1,5 @@
 # the presenter in charge of rendering photos for the API
+# TODO: better comments
 class Api::V1::PhotoPresenter < BasePresenter
   attr_accessor :photo
 

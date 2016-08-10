@@ -199,6 +199,7 @@ Diaspora::Application.routes.draw do
     namespace :v1 do
       resources :tokens, :only => [:create, :destroy]
       resources :posts, only: %i(show create destroy)
+      resources :photos, only: %i(index show create destroy)
     end
   end
 

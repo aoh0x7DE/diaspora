@@ -1,4 +1,5 @@
 # the presenter in charge of rendering posts for the API
+# TODO: better comments
 class Api::V1::PostPresenter < BasePresenter
   include PostsHelper
 

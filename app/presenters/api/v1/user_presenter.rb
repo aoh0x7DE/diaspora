@@ -1,4 +1,5 @@
 # the presenter in charge of rendering users for the API
+# TODO: better comments
 # TODO: additional methods for the Users API
 class Api::V1::UserPresenter < BasePresenter
   attr_accessor :user
